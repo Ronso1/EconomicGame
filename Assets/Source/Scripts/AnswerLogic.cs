@@ -11,7 +11,7 @@ public class AnswerLogic : MonoBehaviour
 
     public void CheckAnswer()
     {
-        if (_playerAnswer.text == _rightAnswer)
+        if (_playerAnswer.text.ToLower() == _rightAnswer.ToLower())
         {
             _goodAnswer.SetActive(true);
 
