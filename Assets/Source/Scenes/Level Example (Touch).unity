@@ -273,6 +273,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38472358}
   m_CullTransparentMesh: 1
+--- !u!1 &54839197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 54839198}
+  - component: {fileID: 54839199}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &54839198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54839197}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 901.1948, y: 1510.269, z: -6.2259636}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &54839199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54839197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78946723d6cadd34f911a03940207cf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _idLevel: 0
+  _timeDelay: 2
 --- !u!1 &338550439
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f5961d90cb2afd46b1706fca5024e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _changeScene: {fileID: 0}
   _resultRight: {fileID: 1719476843}
   _resultWrong: {fileID: 981655252}
   _isRight: 0
@@ -1709,6 +1756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f5961d90cb2afd46b1706fca5024e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _changeScene: {fileID: 0}
   _resultRight: {fileID: 1719476843}
   _resultWrong: {fileID: 981655252}
   _isRight: 0
@@ -1858,6 +1906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f5961d90cb2afd46b1706fca5024e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _changeScene: {fileID: 0}
   _resultRight: {fileID: 1719476843}
   _resultWrong: {fileID: 981655252}
   _isRight: 0
@@ -2350,6 +2399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f5961d90cb2afd46b1706fca5024e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _changeScene: {fileID: 54839199}
   _resultRight: {fileID: 1719476843}
   _resultWrong: {fileID: 981655252}
   _isRight: 1
@@ -2467,3 +2517,4 @@ SceneRoots:
   - {fileID: 1120666526}
   - {fileID: 1286015184}
   - {fileID: 1824733149}
+  - {fileID: 54839198}

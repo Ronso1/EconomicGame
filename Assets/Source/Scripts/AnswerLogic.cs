@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class AnswerLogic : MonoBehaviour
 {
+    [SerializeField] private ChangeScene _changeScene;
     [SerializeField] private TMP_InputField _playerAnswer;
     [SerializeField] private GameObject _goodAnswer;
     [SerializeField] private GameObject _badAnswer;
@@ -14,8 +15,8 @@ public class AnswerLogic : MonoBehaviour
         if (_playerAnswer.text.ToLower() == _rightAnswer.ToLower())
         {
             _goodAnswer.SetActive(true);
-
             if (_badAnswer.activeSelf) _badAnswer.SetActive(false);
+            StartCoroutine(_changeScene.StartScene());
         }
         else
         {
