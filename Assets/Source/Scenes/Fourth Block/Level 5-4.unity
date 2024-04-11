@@ -644,7 +644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u042D\u043A\u043E\u043D\u043E\u043C\u0438\u0441\u0442"
+  m_text: "\u0412\u0435\u0442\u0435\u0440\u0438\u043D\u0430\u0440"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89e4b9d9c38c3c74e91c1d8e26b84f9c, type: 2}
   m_sharedMaterial: {fileID: -1197375595482504325, guid: 89e4b9d9c38c3c74e91c1d8e26b84f9c, type: 2}
@@ -1759,7 +1759,7 @@ MonoBehaviour:
   _changeScene: {fileID: 0}
   _resultRight: {fileID: 1719476843}
   _resultWrong: {fileID: 981655252}
-  _isRight: 0
+  _isRight: 1
 --- !u!1 &1474574662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,7 +1967,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0412\u0435\u0442\u0435\u0440\u0438\u043D\u0430\u0440"
+  m_text: "\u042D\u043A\u043E\u043D\u043E\u043C\u0438\u0441\u0442"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89e4b9d9c38c3c74e91c1d8e26b84f9c, type: 2}
   m_sharedMaterial: {fileID: -1197375595482504325, guid: 89e4b9d9c38c3c74e91c1d8e26b84f9c, type: 2}
@@ -2402,7 +2402,7 @@ MonoBehaviour:
   _changeScene: {fileID: 54839199}
   _resultRight: {fileID: 1719476843}
   _resultWrong: {fileID: 981655252}
-  _isRight: 1
+  _isRight: 0
 --- !u!1 &1824733146
 GameObject:
   m_ObjectHideFlags: 0
