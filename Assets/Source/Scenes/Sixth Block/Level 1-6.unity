@@ -569,7 +569,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0411\u0440\u0435\u043C\u0435\u043D\u0442\u0441\u043A\u0438\u0435 \u043C\u0443\u0437\u044B\u043A\u0430\u043D\u0442\u044B"
+  m_text: "\u041D\u043E\u0432\u043E\u0435 \u043F\u043B\u0430\u0442\u044C\u0435 \u043A\u043E\u0440\u043E\u043B\u044F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89e4b9d9c38c3c74e91c1d8e26b84f9c, type: 2}
   m_sharedMaterial: {fileID: -1197375595482504325, guid: 89e4b9d9c38c3c74e91c1d8e26b84f9c, type: 2}
@@ -1211,7 +1211,7 @@ MonoBehaviour:
   _changeScene: {fileID: 54839199}
   _resultRight: {fileID: 1719476843}
   _resultWrong: {fileID: 981655252}
-  _isRight: 0
+  _isRight: 1
 --- !u!114 &1129158180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1892,7 +1892,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041D\u043E\u0432\u043E\u0435 \u043F\u043B\u0430\u0442\u044C\u0435 \u043A\u043E\u0440\u043E\u043B\u044F"
+  m_text: "\u0411\u0440\u0435\u043C\u0435\u043D\u0442\u0441\u043A\u0438\u0435 \u043C\u0443\u0437\u044B\u043A\u0430\u043D\u0442\u044B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89e4b9d9c38c3c74e91c1d8e26b84f9c, type: 2}
   m_sharedMaterial: {fileID: -1197375595482504325, guid: 89e4b9d9c38c3c74e91c1d8e26b84f9c, type: 2}
@@ -2118,7 +2118,7 @@ MonoBehaviour:
   _changeScene: {fileID: 54839199}
   _resultRight: {fileID: 1719476843}
   _resultWrong: {fileID: 981655252}
-  _isRight: 1
+  _isRight: 0
 --- !u!1 &1824733146
 GameObject:
   m_ObjectHideFlags: 0
