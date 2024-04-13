@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78946723d6cadd34f911a03940207cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _idLevel: 0
+  _idLevel: 11
   _timeDelay: 2
 --- !u!1 &252864982
 GameObject:
@@ -867,7 +867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f5961d90cb2afd46b1706fca5024e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _changeScene: {fileID: 0}
+  _changeScene: {fileID: 54839199}
   _resultRight: {fileID: 1719476843}
   _resultWrong: {fileID: 981655252}
   _isRight: 0
@@ -1757,7 +1757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f5961d90cb2afd46b1706fca5024e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _changeScene: {fileID: 0}
+  _changeScene: {fileID: 54839199}
   _resultRight: {fileID: 1719476843}
   _resultWrong: {fileID: 981655252}
   _isRight: 0
@@ -1907,7 +1907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f5961d90cb2afd46b1706fca5024e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _changeScene: {fileID: 0}
+  _changeScene: {fileID: 54839199}
   _resultRight: {fileID: 1719476843}
   _resultWrong: {fileID: 981655252}
   _isRight: 0
