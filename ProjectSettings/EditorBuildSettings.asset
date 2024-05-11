@@ -194,4 +194,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Source/Scenes/Tenth Block/Level 4-10.unity
     guid: 04811004bb413e541ad24710334a9560
+  - enabled: 1
+    path: Assets/Source/Scenes/Result.unity
+    guid: 8b0f4fedf42dfab42a2a4739289127fa
   m_configObjects: {}
