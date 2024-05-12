@@ -9,16 +9,21 @@ public class ButtonAnswerLogic : MonoBehaviour
 
     public void ButtonClickCheckAnswer()
     {
+        var answerCheck = new AnswerLogic();
+
         if (_isRight)
         {
             _resultRight.SetActive(true);
             if (_resultWrong.activeSelf) _resultWrong.SetActive(false);
             StartCoroutine(_changeScene.StartScene());
+            answerCheck.AddRightScore();
         }
         else
         {
             _resultWrong.SetActive(true);
             if (_resultRight.activeSelf) _resultRight.SetActive(false);
+            StartCoroutine(_changeScene.StartScene());
+            answerCheck.AddBadScore();
         }
     }
 }

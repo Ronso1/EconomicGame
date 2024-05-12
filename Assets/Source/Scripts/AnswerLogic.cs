@@ -27,7 +27,18 @@ public class AnswerLogic : MonoBehaviour
             _badAnswer.SetActive(true);
             _badScore++;
             if (_goodAnswer.activeSelf) _goodAnswer.SetActive(false);
+            StartCoroutine(_changeScene.StartScene());
         }
+    }
+
+    public void AddRightScore()
+    {
+        _rightScore++;
+    }
+
+    public void AddBadScore()
+    {
+        _badScore++;
     }
 
     public int GetCurrentScore()
@@ -38,5 +49,11 @@ public class AnswerLogic : MonoBehaviour
     public int GetBadScore()
     {
         return _badScore;
+    }
+
+    public void ResetScores()
+    {
+        _rightScore = 0;
+        _badScore = 0;
     }
 }
